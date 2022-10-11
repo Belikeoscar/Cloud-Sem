@@ -4,3 +4,7 @@ In the image above i used the helper methods
 - The "whatis" command whcih gives an overview of the meaning to whatever command gets attached to it 
 - The "man" command which is a commannd used to display the full iinformation of any command including its functions, flags and use cases 
 - The "--help" flag which when used along side any command gives an overview of its funtionality 
+![image 2](https://github.com/scarnation/Cloud-Sem/blob/main/Exercise%202%20commands/ScarCodes%20%5BRunning%5D%20-%20Oracle%20VM%20VirtualBox%2010_11_2022%204_35_37%20PM.png)
+In the image above i referenced thhe touch and chown command
+- The "touch" command is used to create new files in the linux system 
+- The "chown" command is used to change file ownership in a linux file system 
