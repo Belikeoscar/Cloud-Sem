@@ -14,6 +14,7 @@ Above we have the ls, whoami and pwd commmands
 - The "pwd" is used to print working directory  in a linux system 
 - The "whoami" command is used to show a message showing which user account we are presently logged into
 ### Other commands 
+![image4](https://github.com/scarnation/Cloud-Sem/blob/main/Exercise%202%20commands/ScarCodes%20%5BRunning%5D%20-%20Oracle%20VM%20VirtualBox%2010_12_2022%2012_04_05%20AM.png)
 - The "grep" and "egrep" used to navigate to specific contents in a filesystem 
 - The "cut" command is used to output a specific range of contents in a file system
 - The "uniq" command is used to remove duplicated contents and characters inside a file system 
