@@ -1,0 +1,53 @@
+commit a98e6dd28b9debed70e6529cb4b72664b4e1f37c (HEAD -> main, origin/main, origin/HEAD)
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Thu Oct 27 02:17:39 2022 +0100
+
+    Create Readme.md
+
+commit b43375140ed777f3d20b9468f2dafc057c59acb7
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Sat Oct 22 04:26:50 2022 +0100
+
+    Create php -v.md
+
+commit c4f239e599d419ae0a6b55bf0f704b79be220f1a
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Sat Oct 22 04:26:05 2022 +0100
+
+    added source-list contents
+
+commit 2f7c8c33bf71715e2a8eafa8ceb6140bb8b49bc9
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Fri Oct 14 02:45:48 2022 +0100
+
+    sudoers file
+
+commit 8c1682698930ccd8fbc3902df436cc1981dc36f9
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Fri Oct 14 02:45:04 2022 +0100
+
+    added user groups file
+
+commit f702ca6358e995c68dee4f45505dbc557cdfe807
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Fri Oct 14 02:43:59 2022 +0100
+
+    added contents of my passwd file
+
+commit eefa323995010e99d30e75bab975a755eda2b3a2
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Wed Oct 12 00:17:50 2022 +0100
+
+    done
+
+commit 677ded4f4f10a600df1625fc166f907e85bdbb3f
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Wed Oct 12 00:16:29 2022 +0100
+
+    filter command jpg
+
+commit 11aa13cb5bf485b6bfa405c29d7a57b66968c19f
+Author: Oscar <61349794+scarnation@users.noreply.github.com>
+Date:   Tue Oct 11 23:45:08 2022 +0100
+
+    Done with the Exercise
