@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
 
-touch oscarFile
-date >> oscarFile
-cat /proc/meminfo >> oscarFile
+touch oscarFile.txt
+date >> oscarFile.txt
+cat /proc/meminfo >> oscarFile.txt
 curtime=$(date +%H:%M)
  if [["$curtime" -eq "00:00"]]
 then
-mail -s 'oscarFile' nnadiukwuoscar@gmail.com < oscarFile
+mail -s 'oscarFile' nnadiukwuoscar@gmail.com < oscarFile.txt
 fi
