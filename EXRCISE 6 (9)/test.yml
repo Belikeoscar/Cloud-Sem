@@ -14,3 +14,7 @@ tasks
  yum:
   name: php
   state: present 
+
+-name: set timezone
+community.general.timezone:
+  name: lagos
