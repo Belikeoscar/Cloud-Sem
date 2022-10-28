@@ -1,0 +1,16 @@
+[webserver]
+
+name: install apache
+hosts: all
+remote_user: root
+
+tasks
+-name: install apache2
+ yum:
+  name: apache2
+  state: present 
+  
+-name: install php
+ yum:
+  name: php
+  state: present 
