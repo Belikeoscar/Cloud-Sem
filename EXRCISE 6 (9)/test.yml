@@ -6,12 +6,12 @@ remote_user: root
 
 tasks
 -name: install apache2
- yum:
+ apt:
   name: apache2
   state: present 
   
 -name: install php
- yum:
+ apt:
   name: php
   state: present 
 
