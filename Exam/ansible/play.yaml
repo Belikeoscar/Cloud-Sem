@@ -137,8 +137,4 @@
         php artisan key:generate
       become: yes
 
-    - name: setup laravel
-      shell: |
-        cd /var/www/html/myapp
-        php artisan migrate
-      become: yes
+    
