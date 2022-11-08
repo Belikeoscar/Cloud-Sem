@@ -4,7 +4,7 @@
     tasks:
 
      - name: Copy and Execute the script 
-       script: /home/oscar/ansible/mypost.sh
+       script: /home/oscar/Documents/cloud-sem/Cloud-Sem/Exam/ansible/mypost.sh
 
      - name: edit .env
        replace:
