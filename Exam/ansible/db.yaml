@@ -5,6 +5,7 @@
 
      - name: Copy and Execute the script 
        script: /home/oscar/Documents/cloud-sem/Cloud-Sem/Exam/ansible/mypost.sh
+       become: yes
 
      - name: edit .env
        replace:
