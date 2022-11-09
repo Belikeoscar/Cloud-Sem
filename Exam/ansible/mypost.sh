@@ -13,24 +13,28 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs
 echo "running postgress installation"
 
 sudo apt update
+echo "done updating now installing postgresql"
 
-apt install postgresql postgresql-contrib
+apt install postgresql postgresql-contrib -y
 
 echo "checking postgress status....."
 
 sudo systemctl status postgresql
+
+echo "enabling postgresql"
+systemctl start postgresql
 
 sudo systemctl enable postgresql
 
 #3 using postgress
 
 echo "running ppostgress"
-
+cd ~postgres/
 sudo -u postgres psql
 
 CREATE DATABASE  miniprojectdb;
 
-\password miniprojectdb >> password
+\password miniprojectdb >> 'password'
 
 \q
 

@@ -4,7 +4,7 @@
     tasks:
 
      - name: Copy and Execute the script 
-       script: /home/oscar/Documents/cloud-sem/Cloud-Sem/Exam/ansible/mypost.sh
+       script: /home/oscar/ansible/mypost.sh
        become: yes
 
      - name: edit .env
@@ -13,6 +13,13 @@
         regexp: 'DB_DATABASE'
         replace: 'miniprojectdb'
         become: yes
+
+     - name: edit .env
+       replace:
+        path: /var/www/html/myapp/.env
+        regexp: 'DB_CONNECTION'
+        replace: 'psql'
+        become: yes   
 
      - name: edit .env
        replace:
@@ -26,4 +33,10 @@
         cd /var/www/html/myapp
         php artisan migrate
        become: yes
+
+     - name: setup laravel
+       shell: |
+        cd /var/www/html/myapp
+        php artisan db:seed
+       become: yes  
 
