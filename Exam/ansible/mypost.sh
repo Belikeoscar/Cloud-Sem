@@ -15,7 +15,7 @@ echo "running postgress installation"
 sudo apt update
 echo "done updating now installing postgresql"
 
-apt install postgresql postgresql-contrib -y
+sudo apt install postgresql postgresql-contrib -y
 
 echo "checking postgress status....."
 
