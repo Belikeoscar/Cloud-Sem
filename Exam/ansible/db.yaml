@@ -18,7 +18,7 @@
        replace:
         path: /var/www/html/myapp/.env
         regexp: 'DB_CONNECTION'
-        replace: 'psql'
+        replace: 'pgsql'
         become: yes   
 
      - name: edit .env
