@@ -1,1 +1,1 @@
-This folder is to be used to save all exercise files i work on from the altschool exercises 
+This folder contains all exercise files i worked on from the altschool second semester exercises 
